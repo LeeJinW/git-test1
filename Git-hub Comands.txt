@@ -1,0 +1,53 @@
+git init : 해당 디렉토리의 git의 필요한 용품들을 넣어줌.
+
+
+git commit -m "f1.txt 화일추가"
+
+-m : 메세지 추가.
+
+cd : 해당 디렉토리 입장
+
+git show : 가장 최근에 커밋한 파일 보여줌
+
+git branch : 브렌치를 보여줌..
+
+git diff : 파일 변경된 것을 확인.  ( 추가되거나 변경된 것을 확인가능 )
+( Tracking 되고 있는 파일에 대한 정보만 확인가능 )
+
+git restore --staged f2.txt : f2.txt 파일을 add 하기 전으로 돌려놓음.
+
+show , log, shortlog : Commit 된 단계의 파일 정보/로그에 대한 정보를 줌.
+( Tracking 되고 있는 파일에 대한 정보만 확인가능 )
+
+git add --all : 해당 디렉토리에 모든 파일을 전부 Staging Area로 올린다.
+
+
+git remote add origin https://github.com/LeeJinW/git-test1.git
+// 해당 주소로 원격 저장소를 추가한다 (?). (매번 하기 번거롭기때문)
+
+git branch : 브렌치 확인. (작업하는 마스터를 보여줌)
+
+git branch topic1 : topic1 이라는 브랜치 생성.
+
+git checkout topic1 : 마치 복사를 한거처럼 복사가되고,
+마스터에서 토픽1에서 (포커스 변경느낌) 작업한다.
+( 포인터가 하나 생긴 느낌 ), ( 현재 작업 디렉토리 변경 )
+
+※ 일반적으로 새로운 기능을 추가할때 브랜치를 만들어서 추가한다.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
